@@ -1,9 +1,21 @@
-function Navbar(){
-    return(
-        <nav>
+import { Component } from "react";
+class Navbar extends Component{
+    render(){
+        return(
+             <nav>
             <h1>Abc.net</h1>
-            <button>login</button>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                </li>
+            </ul>
         </nav>
-    )
+        )
+    }
 }
-export default Navbar
+
+
+ export default Navbar
