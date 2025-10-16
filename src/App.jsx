@@ -9,6 +9,7 @@ import Wojsx from './wojsx'
 import Procs from './propsinclass'
 // import StateCls from './Stecls'
 import Counter from './counter'
+import Evntbinding from './evnt'
  class App extends Component{
   render(){
     return(
@@ -17,11 +18,11 @@ import Counter from './counter'
       < Course />
       {/* < StateCls/> */}
       {/* < Counter />  */}
-      <New name="Jhon">Founder</New>
+      {/* <New name="Jhon">Founder</New>
       <New name="Ben">Co-Founder</New>
       <New name="Starc">Public Relations Officer</New>
-      <New name="Peter">Manager</New>
-
+      <New name="Peter">Manager</New> */}
+<Evntbinding/>
       {/* <Procs holder="Enter your name" row="Name"></Procs>
       <Procs holder="Enter your Email" row="Email"></Procs>
       <Procs holder="Address" row="Addrs"></Procs>
