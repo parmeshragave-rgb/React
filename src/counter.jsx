@@ -14,11 +14,12 @@ class Counter extends Component{
         }))
     }
      Increment5(){
-         increment()
-          increment()
-           increment()
-            increment()
-             increment()
+         this.increment()
+         this.increment()
+         this.increment()
+         this.increment()
+         this.increment()
+          
      }
     
     render(){
@@ -26,7 +27,7 @@ class Counter extends Component{
             <>
             <h1>Counter</h1>
             <h3>{this.state.count}</h3>
-            <button onClick={() => Increment5()}>Count</button>
+            <button onClick={this.Increment5.bind(this)}>Count</button>
             </>
         )
     }

@@ -1,4 +1,4 @@
-const Course=()=>{
+const Course = () =>{
     return (
 
 
