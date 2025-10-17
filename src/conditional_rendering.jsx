@@ -10,8 +10,8 @@ class Condrend extends Component{
     
     
     render(){
-
-         
+    // Method4
+         return(this.state.isloggedin && <h1>Welcome Home</h1>)
         
         
         

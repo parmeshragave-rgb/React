@@ -1,0 +1,27 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+     border: 0cap solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 2px;
+    justify-content: space-around;
+    background-color: rgb(140, 192, 238);
+}
+.item{
+    width: 300px;
+   border: 0cap solid;
+   padding: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgb(190, 218, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item:hover{
+    background-color: antiquewhite;
+}

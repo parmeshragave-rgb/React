@@ -12,11 +12,24 @@ import Counter from './counter'
 import Evntbinding from './evnt'
 import Parent from './ParentComponent'
 import Condrend from './conditional_rendering'
+import List from './listing'
+import Childlist from './listprops'
+import Stylesheet from './Stylesheet'
+import Inlinecss from './inlinecss'
+import Formhandling from './formhandling'
+import Compmount from './compmount'
+import Fragmentp from './fragmentParent'
  class App extends Component{
   render(){
     return(
       <>
-      <Condrend/>
+      <Fragmentp/>
+      {/* <Compmount/> */}
+      {/* <Formhandling /> */}
+      {/* <Inlinecss /> */}
+      {/* <Stylesheet/> */}
+      {/* <List /> */}
+    {/* <Condrend/> */}
       {/* <Parent/> */}
       {/* < Navbar />
       < Course />
