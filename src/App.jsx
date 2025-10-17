@@ -19,13 +19,15 @@ import Inlinecss from './inlinecss'
 import Formhandling from './formhandling'
 import Compmount from './compmount'
 import Fragmentp from './fragmentParent'
+import Parentcomp from './parentcomp'
  class App extends Component{
   render(){
     return(
       <>
-      <Fragmentp/>
+      <Parentcomp/>
+      {/* <Fragmentp/> */}
       {/* <Compmount/> */}
-      {/* <Formhandling /> */}
+       {/* <Formhandling />  */}
       {/* <Inlinecss /> */}
       {/* <Stylesheet/> */}
       {/* <List /> */}
