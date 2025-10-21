@@ -24,11 +24,19 @@ import Refs from './refs'
 import Hookscounter from './Hookscounter'
 import Usestateobj from './Usestateobj'
 import Useeffhook from './Useeffhook'
+import Componentlc from './Componentlc'
+import Useeffcdm from './Useeffcdm'
+import Mousecontainer from './Mousecontainr'
+import Timer from './Timer'
  class App extends Component{
   render(){
     return(
       <>
-      <Useeffhook/>
+      <Timer/>
+      {/* <Mousecontainer/> */}
+      {/* <Useeffcdm/> */}
+      {/* <Componentlc/> */}
+      {/* <Useeffhook/> */}
       {/* <Usestateobj/> */}
   {/* <Hookscounter/> */}
       {/* <Refs/> */}
