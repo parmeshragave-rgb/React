@@ -32,12 +32,14 @@ import Fetchdata from './Fetchdata'
 import Userefhook from './Userefhook'
 import ClassTimer from './Classtimer'
 import HookTimer from './HookTimer'
+import Customhook from './Customhook'
  class App extends Component{
   render(){
     return(
       <>
-      <HookTimer/>
-      <ClassTimer/>
+      <Customhook/>
+      {/* <HookTimer/>
+      <ClassTimer/> */}
       {/* <Userefhook/> */}
       {/* <Fetchdata/> */}
       {/* <Timer/> */}
