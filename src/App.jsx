@@ -20,11 +20,19 @@ import Formhandling from './formhandling'
 import Compmount from './compmount'
 import Fragmentp from './fragmentParent'
 import Parentcomp from './parentcomp'
+import Refs from './refs'
+import Hookscounter from './Hookscounter'
+import Usestateobj from './Usestateobj'
+import Useeffhook from './Useeffhook'
  class App extends Component{
   render(){
     return(
       <>
-      <Parentcomp/>
+      <Useeffhook/>
+      {/* <Usestateobj/> */}
+  {/* <Hookscounter/> */}
+      {/* <Refs/> */}
+      {/* <Parentcomp/> */}
       {/* <Fragmentp/> */}
       {/* <Compmount/> */}
        {/* <Formhandling />  */}
