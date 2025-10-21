@@ -28,11 +28,19 @@ import Componentlc from './Componentlc'
 import Useeffcdm from './Useeffcdm'
 import Mousecontainer from './Mousecontainr'
 import Timer from './Timer'
+import Fetchdata from './Fetchdata'
+import Userefhook from './Userefhook'
+import ClassTimer from './Classtimer'
+import HookTimer from './HookTimer'
  class App extends Component{
   render(){
     return(
       <>
-      <Timer/>
+      <HookTimer/>
+      <ClassTimer/>
+      {/* <Userefhook/> */}
+      {/* <Fetchdata/> */}
+      {/* <Timer/> */}
       {/* <Mousecontainer/> */}
       {/* <Useeffcdm/> */}
       {/* <Componentlc/> */}
